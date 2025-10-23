@@ -45,7 +45,7 @@ The following libraries were used to implement the clustering solution:
 
 1. #### Clone the repository
 ```bash
-git clone 
+git clone https://github.com/Tanmay2923/Customer-Segmentation.git
 ```
 
 2. #### Install necessary Python libraries
