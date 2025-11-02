@@ -9,10 +9,10 @@ The goal is to discover underlying, non-obvious patterns in customer data by clu
 
 ## Methodology
 The clustering pipeline involves three critical stages:
-- 1. **Feature Selection**: Identifying the numerical features essential for calculating distances between customers: `Age`, `Annual_Income(k$)`, and `Spending_Score(1-100)`.
-- 2. **Data Preprocessing**: Applying StandardScaler to ensure all features are weighted equally. This normalization is mandatory for distance-based algorithms like K-Means.
-- 3. **Clustering**: Running the **K-Means** algorithm (set to $k=3$) on the scaled data to assign each customer to a cluster.
-- 4. **Analysis & Visualization**: Appending the cluster labels back to the original data and plotting the results to interpret the characteristics of the segments.
+1. **Feature Selection**: Identifying the numerical features essential for calculating distances between customers: `Age`, `Annual_Income(k$)`, and `Spending_Score(1-100)`.
+2. **Data Preprocessing**: Applying StandardScaler to ensure all features are weighted equally. This normalization is mandatory for distance-based algorithms like K-Means.
+3. **Clustering**: Running the **K-Means** algorithm (set to $k=3$) on the scaled data to assign each customer to a cluster.
+4. **Analysis & Visualization**: Appending the cluster labels back to the original data and plotting the results to interpret the characteristics of the segments.
 
 ## Features
 - **Unsupervised Learning**: Application of the **K-Means Clustering** algorithm.
